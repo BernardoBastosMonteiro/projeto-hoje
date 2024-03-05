@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.conteiner{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fffbfb;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.conteiner img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.login-block{
+    width: 50%;
+    height: 50%;
+    z-index: 10;
+    background-color: #050505;
+    border-radius: 15px;
+    box-shadow: 0px 7px 10px #f8f4f4;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-areas: 'login' 'login' 'fa-solid fa-user' ;
+    grid-template-columns: 1fr 1fr;
+    @media screen and (min-width: 300px) {
+        width: 30%;
+        height: 40%;
+        font-size: 14px;
+        
+    }
+     
+    
+}
+.login-block p{
+    margin: 10px;
+}
+
+.login-block input{
+    @media screen and (min-width:300px) {
+        width: 30%;
+        height: 20%;
+        font-size: 14px;
+    }
+}
+.login-block input{
+    @media screen and (min-width:300px) {
+        width: 30%;
+        height: 20%;
+        font-size: 14px;
+        
+    }
+}
+
+
+
+
+
